@@ -39,3 +39,26 @@ Current methods for RUL prediction:
   - Features: 26 sensor measurements and 3 operational settings.
   - Target: Remaining Useful Life (RUL).
   - Total rows (train + test): 265,256.
+ ---
+## **How to Replicate the Project**
+
+### **1. Prerequisites**
+- Download the [NASA C-MAPSS Dataset](https://data.nasa.gov/Aerospace/CMAPSS-Jet-Engine-Simulated-Data/ff5v-kuh6).
+- Ensure you have a Google account to use Google Colab.
+
+### **2. File Setup**
+- Place the downloaded dataset in your Google Drive for easy access in Colab.
+- Clone this repository and upload the Google Colab files to your drive or workspace.
+
+### **3. Running the Project**
+For each dataset (FD001, FD002, FD003, FD004), and the unified model:
+1. **Open the Colab Notebook**:
+   - Navigate to `notebooks/FD001_Colab.ipynb` for FD001, and similar files for other datasets and the unified model.
+2. **Follow the Steps**:
+   - Each notebook contains:
+     - Feature dropping.
+     - Data preprocessing (e.g., correlation analysis and rolling statistics).
+     - Model training for Random Forest, XGBoost, and Blended Ensemble.
+     - Model evaluation (plots, metrics, and predictions).
+3. **Unified Model**:
+   - Open `notebooks/Applied_AI_Project_UnifiedModel.ipynb` to run the unified model across all datasets.
