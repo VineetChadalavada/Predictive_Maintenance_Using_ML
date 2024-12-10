@@ -1,7 +1,5 @@
 # Predictive Maintenance of Industrial Machinery Using Machine Learning
 
-# **Predictive Maintenance Using Machine Learning**
-
 This repository contains the implementation, results, and documentation for the predictive maintenance project, which uses machine learning models to predict the Remaining Useful Life (RUL) of machinery components. The project utilizes NASA's C-MAPSS dataset and evaluates both dataset-specific and unified models for RUL prediction.
 
 ---
